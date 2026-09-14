@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CAROLINES — Stilberatung & Personal Styling in Bonn | Entwurf</title>
-<meta name="description" content="Entwurf einer neuen Website für CAROLINES, Bonn Bad Godesberg: Stilberatung, Magic Makeover und Mini STYLE-Kurs von Caroline Florett. Vorher-Nachher-Umstylings, Angebote, Kontakt.">
+<title>CAROLINES — Stilberatung & Magic Makeover in Bonn | Entwurf</title>
+<meta name="description" content="Entwurf einer neuen Website für CAROLINES, Bonn Bad Godesberg: Stilberatung, Magic Makeover, Mini STYLE-Kurs und Ausstrahlung & Business von Caroline Florett.">
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#15171F">
-<meta property="og:title" content="CAROLINES — Dein Stil ist da. Du musst ihn nur sichtbar machen.">
+<meta name="theme-color" content="#1F2FC2">
+<meta property="og:title" content="CAROLINES — Die Fashion & Styling Company, die Frauen sichtbar macht.">
 <meta property="og:description" content="Entwurf einer neuen Website für CAROLINES, Bonn. Stilberatung, Magic Makeover, Mini STYLE-Kurs.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://leonelsancu15-hash.github.io/carolines-demo/og-image.jpg">
@@ -15,742 +15,535 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://leonelsancu15-hash.github.io/carolines-demo/og-image.jpg">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%231F2FC2'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='40' font-style='italic' text-anchor='middle' fill='%23F3EEE6'%3EC%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231F2FC2'/%3E%3Cpath d='M18 64V30a14 14 0 0 1 28 0v34' fill='%23F5F1E8'/%3E%3C/svg%3E">
 <style>
-@font-face{font-family:'Fraunces';font-style:italic;font-weight:300 500;font-display:swap;src:url(font-fraunces-italic.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Fraunces';font-style:normal;font-weight:300 500;font-display:swap;src:url(font-fraunces-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Instrument Sans';font-style:italic;font-weight:400 600;font-display:swap;src:url(font-instrumentsans-italic.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:400 600;font-display:swap;src:url(font-instrumentsans-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400 500;font-display:swap;src:url(font-jetbrainsmono-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400 500;font-display:swap;src:url(font2-cormorantgaramond-italic-400-500.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400 500;font-display:swap;src:url(font2-cormorantgaramond-normal-400-500.woff2) format('woff2')}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:400 600;font-display:swap;src:url(font2-manrope-normal-400-500-600.woff2) format('woff2')}
+
 :root{
-  --paper:#F3EEE6; --paper-2:#EAE3D8; --stone:#D9D0C2; --ink:#15171F; --ink-2:#2A2C35; --mute:#6E6A62; --blue:#1F2FC2; --blue-soft:#3A49D6;
-  --bg:var(--paper); --fg:var(--ink); --fg-mute:var(--mute); --line:rgba(21,23,31,.14);
-  --gutter:clamp(20px,4.5vw,72px); --ease:cubic-bezier(.16,1,.3,1);
-  --display:"Fraunces",Georgia,"Times New Roman",serif; --sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --blue:#1F2FC2; --blue-deep:#141F8F; --cream:#F5F1E8; --cream-2:#EDE7DA; --black:#0E0F14; --grey:#6C6A63; --line:rgba(14,15,20,.14);
+  --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif; --sans:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --pad:clamp(20px,5vw,88px); --ease:cubic-bezier(.2,.8,.2,1);
 }
 *{box-sizing:border-box}
-html{scroll-behavior:auto;-webkit-text-size-adjust:100%}
-html.lenis,html.lenis body{height:auto}
-.lenis.lenis-smooth{scroll-behavior:auto!important}
-body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:clamp(16px,1.05vw,18px);line-height:1.55;overflow-x:clip;transition:background-color .8s var(--ease),color .8s var(--ease);-webkit-font-smoothing:antialiased}
-html.theme-dark body{--bg:var(--ink);--fg:var(--paper);--fg-mute:#B8B2A6;--line:rgba(243,238,230,.16)}
-img{max-width:100%;height:auto;display:block}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--black);font-family:var(--sans);font-size:clamp(16px,1.05vw,18px);line-height:1.6;overflow-x:clip;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
 a{color:inherit}
-h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.02;letter-spacing:-.015em;margin:0;font-variation-settings:"opsz" 144}
-h1{font-size:clamp(44px,7.4vw,124px)}
-h2{font-size:clamp(36px,5.2vw,84px)}
-h3{font-size:clamp(24px,2.2vw,34px)}
-em,.it{font-style:italic;font-weight:300}
-.blue{color:var(--blue)}
-html.theme-dark .blue{color:#8C97FF}
-.mono{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
-.lead{font-size:clamp(18px,1.5vw,24px);line-height:1.45;max-width:38ch;font-weight:400}
-.wrap{padding-inline:var(--gutter)}
-section{position:relative;padding-block:clamp(88px,11vw,170px)}
-.skip{position:absolute;left:-999px;top:8px;background:var(--blue);color:#fff;padding:10px 16px;z-index:100;text-decoration:none}
+h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;line-height:.98;letter-spacing:-.01em}
+h1{font-size:clamp(52px,9vw,150px)}
+h2{font-size:clamp(40px,6.2vw,104px)}
+h3{font-size:clamp(26px,2.6vw,40px)}
+em{font-style:italic}
+p{margin:0}
+.small{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:600}
+.skip{position:absolute;left:-999px;top:8px;background:var(--black);color:#fff;padding:10px 16px;z-index:100;text-decoration:none}
 .skip:focus{left:8px}
-:focus-visible{outline:2px solid var(--blue);outline-offset:4px}
-html.theme-dark :focus-visible{outline-color:#8C97FF}
+:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
+.on-blue :focus-visible{outline-color:var(--cream)}
 
-/* nav */
-.nav{position:fixed;inset:0 0 auto 0;z-index:60;display:flex;align-items:center;justify-content:space-between;padding:20px var(--gutter);mix-blend-mode:difference;color:#fff}
-.nav .brand{font-family:var(--display);font-size:22px;letter-spacing:.14em;text-decoration:none;font-weight:500}
-.nav ul{list-style:none;margin:0;padding:0;display:flex;gap:30px}
-.nav ul a{text-decoration:none;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;position:relative;padding-bottom:4px}
-.nav ul a::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease)}
-.nav ul a:hover::after,.nav ul a:focus-visible::after{transform:scaleX(1)}
-.burger{display:none;background:none;border:0;color:inherit;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;padding:8px 0}
-.menu{position:fixed;inset:0;z-index:55;background:var(--ink);color:var(--paper);display:none;flex-direction:column;justify-content:center;padding:var(--gutter);gap:8px}
-.menu.open{display:flex}
-.menu a{font-family:var(--display);font-size:clamp(34px,9vw,56px);text-decoration:none;line-height:1.15}
-.menu .mono{margin-top:32px;color:#B8B2A6}
-@media (max-width:900px){.nav ul{display:none}.burger{display:block}}
+/* Kapitel-Navigation (fixed, rechts) */
+.chap{position:fixed;right:clamp(12px,2vw,28px);top:50%;transform:translateY(-50%);z-index:40;display:grid;gap:14px;margin:0;padding:0;list-style:none}
+.chap a{display:block;width:34px;height:34px;border-radius:50%;border:1px solid currentColor;font-family:var(--serif);font-size:15px;display:grid;place-items:center;text-decoration:none;opacity:.55;transition:opacity .3s,background .3s,color .3s}
+.chap a:hover,.chap a.is-active{opacity:1;background:currentColor}
+.chap a:hover span,.chap a.is-active span{color:var(--cream);mix-blend-mode:difference}
+.chap a.is-active span{filter:invert(1)}
+.chap{color:var(--black)}
+.chap.on-dark{color:var(--cream)}
+@media (max-width:900px){.chap{display:none}}
 
-/* buttons */
-.btn{--btn-bg:var(--ink);--btn-fg:var(--paper);position:relative;display:inline-flex;align-items:center;gap:12px;padding:16px 26px;border-radius:999px;border:1px solid var(--btn-bg);background:var(--btn-bg);color:var(--btn-fg);font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;overflow:hidden;isolation:isolate;cursor:pointer;transition:color .5s var(--ease)}
-.btn::before{content:"";position:absolute;inset:0;background:var(--blue);transform:translateY(101%);transition:transform .55s var(--ease);z-index:-1}
-.btn:hover::before,.btn:focus-visible::before{transform:translateY(0)}
-.btn:hover{color:#fff}
-.btn svg{width:14px;height:14px;transition:transform .5s var(--ease)}
-.btn:hover svg{transform:translateX(5px)}
-.btn.ghost{--btn-bg:transparent;--btn-fg:currentColor;border-color:currentColor}
-.btn.light{--btn-bg:var(--paper);--btn-fg:var(--ink)}
-.btn.blue{--btn-bg:var(--blue);--btn-fg:#fff}
-.btn.blue::before{background:var(--ink)}
-html.theme-dark .btn:not(.blue):not(.ghost):not(.light){--btn-bg:var(--paper);--btn-fg:var(--ink)}
+/* Topbar */
+.top{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:18px var(--pad);pointer-events:none}
+.top>*{pointer-events:auto}
+.top .wm{font-family:var(--serif);font-size:24px;letter-spacing:.2em;text-decoration:none;font-weight:500}
+.top .cta{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;text-decoration:none;border:1px solid currentColor;padding:12px 18px;border-radius:2px;transition:background .3s,color .3s}
+.top .cta:hover{background:var(--black);color:var(--cream);border-color:var(--black)}
+.top.on-dark{color:var(--cream)}
+.top.on-dark .cta:hover{background:var(--cream);color:var(--blue);border-color:var(--cream)}
+.top{color:var(--black);transition:color .5s}
+@media (max-width:600px){.top .cta{padding:10px 12px;font-size:11px}}
 
-/* hero */
-.hero{min-height:100svh;display:grid;align-items:end;padding:0;color:var(--paper);background:var(--ink);isolation:isolate}
-.hero .media{position:absolute;inset:0;overflow:hidden;z-index:-1}
-.hero .media img{width:100%;height:118%;object-fit:cover;object-position:62% 30%;will-change:transform}
-.hero .media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(21,23,31,.25) 0%,rgba(21,23,31,.05) 35%,rgba(21,23,31,.72) 100%)}
-.hero .inner{padding:140px var(--gutter) 40px;width:100%;display:grid;gap:34px}
-.hero h1{max-width:12ch}
-.hero .row{display:flex;flex-wrap:wrap;gap:14px 18px;align-items:center}
-.hero .foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;border-top:1px solid rgba(243,238,230,.25);padding-top:18px;color:#D8D2C6}
-.hero .eyebrow{display:flex;gap:14px;align-items:center}
-.hero .eyebrow::before{content:"";width:34px;height:1px;background:currentColor}
+/* Grundraster */
+section{position:relative;padding:clamp(96px,12vw,180px) var(--pad)}
+.blue{background:var(--blue);color:var(--cream)}
+.blue .small{color:#C9CFFF}
+.black{background:var(--black);color:var(--cream)}
+.black .small{color:#A9A69C}
+.num{font-family:var(--serif);font-size:clamp(80px,14vw,220px);line-height:.8;opacity:.18;position:absolute;right:var(--pad);top:clamp(24px,4vw,56px);pointer-events:none;user-select:none}
+.arch{border-radius:999px 999px 0 0;overflow:hidden;background:var(--cream-2)}
+.arch img{width:100%;height:100%;object-fit:cover}
 
-/* intro */
-.intro{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(40px,6vw,110px);align-items:start}
-.intro .lead{max-width:30ch;font-family:var(--display);font-size:clamp(26px,2.9vw,46px);line-height:1.12;letter-spacing:-.01em}
-.list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
-.list li{padding:18px 0;border-bottom:1px solid var(--line);font-size:clamp(17px,1.25vw,21px)}
-.list .n{font-family:var(--mono);font-size:12px;color:var(--fg-mute);padding-top:6px}
-.intro .aside{display:grid;gap:30px}
-.intro .quote{font-family:var(--display);font-style:italic;font-weight:300;font-size:clamp(20px,1.6vw,26px);line-height:1.3;color:var(--fg-mute);max-width:32ch}
-.intro .quote strong{font-weight:400;font-style:normal;color:var(--fg)}
-@media (max-width:900px){.intro{grid-template-columns:1fr}}
+/* 01 Cover */
+.cover{min-height:100svh;display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(28px,5vw,80px);align-items:end;padding-top:120px;padding-bottom:clamp(28px,4vw,56px)}
+.cover .lead{display:grid;gap:28px;align-content:end}
+.cover h1{max-width:9ch}
+.cover .sub{font-family:var(--serif);font-size:clamp(20px,2vw,30px);line-height:1.3;max-width:26ch;font-style:italic}
+.cover .arch{aspect-ratio:3/4;width:min(100%,520px);justify-self:end}
+.cover .arch img{object-position:60% 25%}
+.cover .row{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 24px;border-radius:2px;border:1px solid currentColor;text-decoration:none;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;transition:background .3s,color .3s}
+.btn.fill{background:var(--cream);color:var(--blue);border-color:var(--cream)}
+.btn.fill:hover{background:transparent;color:var(--cream)}
+.btn.dark{background:var(--black);color:var(--cream);border-color:var(--black)}
+.btn.dark:hover{background:transparent;color:var(--black)}
+.btn.line:hover{background:currentColor}
+.btn.line:hover span{color:var(--blue);mix-blend-mode:normal}
+.blue .btn.line:hover span{color:var(--blue)}
+.cream .btn.line:hover span{color:var(--cream)}
+.cover .meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;border-top:1px solid rgba(245,241,232,.3);padding-top:16px;margin-top:8px;grid-column:1/-1;color:#C9CFFF}
+@media (max-width:900px){.cover{grid-template-columns:1fr;align-items:start;padding-top:110px}.cover .arch{width:min(100%,380px);justify-self:start;aspect-ratio:4/5}}
 
-/* section headers */
-.head{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;margin-bottom:clamp(40px,5vw,72px)}
-.head .mono{color:var(--fg-mute);margin-bottom:18px;display:block}
-.head p{max-width:44ch;margin:0;color:var(--fg-mute)}
-@media (max-width:900px){.head{grid-template-columns:1fr}}
+/* 02 Kennst Du das? */
+.wardrobe{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(28px,5vw,90px);align-items:start}
+.wardrobe .q{display:grid;gap:20px;position:sticky;top:120px}
+.wardrobe h2{max-width:12ch;font-size:clamp(34px,4.6vw,76px)}
+.wardrobe ol{margin:0;padding:0;list-style:none;counter-reset:k;border-top:1px solid var(--line)}
+.wardrobe li{counter-increment:k;display:grid;grid-template-columns:64px 1fr;gap:16px;align-items:baseline;padding:clamp(18px,2.4vw,30px) 0;border-bottom:1px solid var(--line);font-family:var(--serif);font-size:clamp(24px,2.7vw,40px);line-height:1.15}
+.wardrobe li::before{content:counter(k,decimal-leading-zero);font-family:var(--sans);font-size:12px;letter-spacing:.16em;color:var(--grey);font-weight:600}
+.wardrobe .after{margin-top:40px;display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center}
+.wardrobe .after .arch{width:120px;aspect-ratio:3/4}
+.wardrobe .after p{font-size:clamp(17px,1.3vw,21px);max-width:38ch}
+@media (max-width:900px){.wardrobe{grid-template-columns:1fr}.wardrobe .q{position:static}}
 
-/* before/after */
-.ba-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,40px) clamp(16px,2vw,32px)}
-.ba{margin:0;display:grid;gap:14px}
-.reveal-hover{--cut:100%;position:relative;overflow:clip;isolation:isolate;background:var(--paper-2);aspect-ratio:540/907;contain:paint;border-radius:2px;touch-action:pan-y;cursor:ew-resize}
-.reveal-hover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
-.reveal-hover .base{z-index:0}
-.reveal-hover .over{z-index:1;pointer-events:none;clip-path:inset(0 0 0 var(--cut));will-change:clip-path}
-.reveal-hover .line{position:absolute;top:0;bottom:0;left:var(--cut);width:1px;background:#fff;z-index:2;pointer-events:none;opacity:0;transition:opacity .4s var(--ease);box-shadow:0 0 0 1px rgba(21,23,31,.25)}
-.reveal-hover.is-live .line{opacity:1}
-.reveal-hover.is-after{--cut:0%}
-.reveal-hover.is-after .line{opacity:0}
-.ba .tag{position:absolute;left:12px;top:12px;z-index:2;background:rgba(21,23,31,.72);color:#fff;padding:6px 10px;border-radius:999px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;backdrop-filter:blur(4px)}
-.ba .toggle{position:absolute;right:12px;bottom:12px;z-index:2;border:1px solid rgba(255,255,255,.7);background:rgba(21,23,31,.55);color:#fff;padding:9px 14px;border-radius:999px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;backdrop-filter:blur(4px)}
-.ba .toggle[aria-pressed="true"]{background:var(--blue);border-color:var(--blue)}
-.ba figcaption{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:baseline}
-.ba figcaption .n{font-family:var(--mono);font-size:12px;color:var(--fg-mute)}
-.ba figcaption h3{font-size:clamp(20px,1.5vw,24px);line-height:1.15}
-.ba figcaption p{margin:6px 0 0;color:var(--fg-mute);font-size:15.5px;max-width:34ch}
-.hint{color:var(--fg-mute);font-size:14px;display:flex;gap:10px;align-items:center;margin-top:34px}
-.hint::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--blue)}
-@media (hover:none),(pointer:coarse){.hint .fine{display:none}}
-@media (hover:hover) and (pointer:fine){.hint .coarse{display:none}}
-@media (max-width:1000px){.ba-grid{grid-template-columns:repeat(2,1fr)}}
-@media (max-width:560px){.ba-grid{grid-template-columns:1fr}}
+/* 03 Umstylings — Vergleich mit Regler */
+.compare{padding-left:0;padding-right:0}
+.compare .head{padding:0 var(--pad);display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;margin-bottom:clamp(36px,4vw,64px)}
+.compare .head p{max-width:46ch;color:#C9CFFF}
+.pairs{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,40px) clamp(14px,2vw,32px);padding:0 var(--pad)}
+.pair{margin:0;display:grid;gap:14px}
+.cmp{--cut:50%;position:relative;overflow:hidden;aspect-ratio:540/907;border-radius:999px 999px 0 0;background:var(--blue-deep);isolation:isolate}
+.cmp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cmp .after{clip-path:inset(0 0 0 var(--cut))}
+.cmp .handle{position:absolute;top:0;bottom:0;left:var(--cut);width:2px;background:var(--cream);transform:translateX(-1px);pointer-events:none}
+.cmp .handle::after{content:"";position:absolute;left:50%;top:50%;width:38px;height:38px;border-radius:50%;background:var(--cream);transform:translate(-50%,-50%);box-shadow:0 2px 10px rgba(0,0,0,.25);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231F2FC2' stroke-width='1.8'%3E%3Cpath d='M9 6l-5 6 5 6M15 6l5 6-5 6'/%3E%3C/svg%3E");background-size:18px;background-position:center;background-repeat:no-repeat}
+.cmp input[type=range]{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;-webkit-appearance:none;appearance:none;z-index:2}
+.cmp input[type=range]:focus-visible + .handle::after{outline:3px solid #fff;outline-offset:3px}
+.cmp .lab{position:absolute;bottom:14px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;padding:6px 10px;background:rgba(14,15,20,.6);color:#fff;border-radius:2px;pointer-events:none}
+.cmp .lab.l{left:14px}.cmp .lab.r{right:14px}
+.pair figcaption{display:grid;gap:4px}
+.pair figcaption strong{font-family:var(--serif);font-weight:500;font-size:clamp(20px,1.6vw,26px);line-height:1.15}
+.pair figcaption span{color:#C9CFFF;font-size:15px;max-width:34ch}
+.compare .hint{padding:28px var(--pad) 0;color:#C9CFFF;font-size:14px}
+@media (max-width:1000px){.pairs{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.pairs{grid-template-columns:1fr}}
 
-/* strip */
-.strip{padding-block:0 clamp(88px,11vw,170px)}
-.strip .track{display:flex;gap:clamp(14px,1.6vw,24px);overflow-x:auto;scroll-snap-type:x mandatory;padding:0 var(--gutter) 12px;scrollbar-width:none;-ms-overflow-style:none}
-.strip .track::-webkit-scrollbar{display:none}
-.strip figure{flex:0 0 clamp(260px,32vw,420px);scroll-snap-align:start;margin:0;display:grid;gap:12px}
-.strip img{aspect-ratio:1;object-fit:cover;width:100%;background:var(--paper-2);border-radius:2px}
-.strip figcaption{color:var(--fg-mute);font-size:15px;display:grid;grid-template-columns:auto 1fr;gap:12px}
-.strip figcaption .n{font-family:var(--mono);font-size:12px}
-.strip .bar{display:flex;justify-content:space-between;align-items:center;padding:0 var(--gutter);margin-bottom:22px;color:var(--fg-mute)}
-.strip .arrows{display:flex;gap:8px}
-.strip .arrows button{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:transparent;color:inherit;cursor:pointer;display:grid;place-items:center;transition:background .4s var(--ease),color .4s var(--ease)}
-.strip .arrows button:hover{background:var(--ink);color:var(--paper)}
+/* 04 Etappen — Filmstreifen */
+.strip{padding-left:0;padding-right:0;padding-top:0}
+.strip .bar{display:flex;justify-content:space-between;align-items:center;padding:0 var(--pad);margin-bottom:22px}
+.strip .bar button{width:44px;height:44px;border-radius:50%;border:1px solid currentColor;background:transparent;color:inherit;cursor:pointer;font-size:18px;line-height:1;margin-left:8px}
+.strip .bar button:hover{background:var(--cream);color:var(--blue)}
+.film{display:flex;gap:2px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 var(--pad);scrollbar-width:none}
+.film::-webkit-scrollbar{display:none}
+.film figure{flex:0 0 min(78vw,560px);scroll-snap-align:start;margin:0;background:var(--blue-deep);padding:14px 14px 20px;display:grid;gap:14px}
+.film img{aspect-ratio:1;object-fit:cover;width:100%}
+.film figcaption{display:grid;grid-template-columns:auto 1fr;gap:12px;font-size:15px;color:#C9CFFF}
+.film figcaption b{font-family:var(--serif);font-weight:500;font-size:22px;color:var(--cream)}
 
-/* offers */
-.offers{background:var(--paper-2)}
-html.theme-dark .offers{background:#1B1D26}
-.tabs{display:grid;grid-template-columns:minmax(260px,.9fr) 1.6fr;gap:clamp(32px,5vw,90px);align-items:start}
-.tablist{display:grid;border-top:1px solid var(--line)}
-.tab{all:unset;cursor:pointer;display:grid;grid-template-columns:36px 1fr auto;gap:14px;align-items:baseline;padding:20px 0;border-bottom:1px solid var(--line);font-family:var(--display);font-size:clamp(22px,2vw,30px);line-height:1.1;transition:color .4s var(--ease),padding-left .5s var(--ease)}
-.tab .n,.tab .meta{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-mute)}
-.tab[aria-selected="true"]{color:var(--blue);padding-left:8px}
-html.theme-dark .tab[aria-selected="true"]{color:#8C97FF}
-.tab:focus-visible{outline-offset:-2px}
-.panel{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,3vw,48px);align-items:start}
-.panel[hidden]{display:none}
-.panel .stage{aspect-ratio:4/5;overflow:hidden;background:var(--stone);border-radius:2px}
-.panel .stage img{width:100%;height:100%;object-fit:cover}
-.panel .copy{display:grid;gap:22px}
-.panel .copy p{margin:0;color:var(--fg-mute)}
-.panel .facts{display:grid;gap:0;border-top:1px solid var(--line);margin:0;padding:0;list-style:none}
-.panel .facts li{display:grid;grid-template-columns:120px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-size:15.5px}
-.panel .facts .k{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-mute);padding-top:3px}
-.panel ol{margin:0;padding-left:0;list-style:none;counter-reset:s;display:grid;gap:10px}
-.panel ol li{counter-increment:s;display:grid;grid-template-columns:32px 1fr;gap:10px;font-size:15.5px}
-.panel ol li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:12px;color:var(--fg-mute);padding-top:3px}
-@media (max-width:1000px){.tabs{grid-template-columns:1fr}.panel{grid-template-columns:1fr}.panel .stage{aspect-ratio:4/3}}
+/* 05 Angebote — Karte */
+.menu{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(28px,5vw,90px);align-items:start}
+.menu .intro{display:grid;gap:22px;position:sticky;top:120px}
+.menu .intro p{max-width:40ch;color:var(--grey);font-size:clamp(17px,1.2vw,20px)}
+.menu details{border-top:1px solid var(--line)}
+.menu details:last-of-type{border-bottom:1px solid var(--line)}
+.menu summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:44px 1fr auto 40px;gap:14px;align-items:baseline;padding:clamp(20px,2.4vw,30px) 0;font-family:var(--serif);font-size:clamp(26px,2.8vw,42px);line-height:1.05}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary .k{font-family:var(--sans);font-size:12px;letter-spacing:.16em;color:var(--grey);font-weight:600}
+.menu summary .m{font-family:var(--sans);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--grey);font-weight:600}
+.menu summary .x{font-family:var(--sans);font-size:26px;text-align:right;transition:transform .35s var(--ease);color:var(--blue)}
+.menu details[open] summary .x{transform:rotate(45deg)}
+.menu .body{display:grid;grid-template-columns:1fr 1.2fr;gap:28px;padding:0 0 clamp(24px,3vw,40px) 58px}
+.menu .body .arch{aspect-ratio:3/4}
+.menu .body p{color:var(--grey);margin-bottom:16px}
+.menu .facts{display:grid;gap:8px;margin:18px 0 22px;padding:0;list-style:none;font-size:15px}
+.menu .facts li{display:grid;grid-template-columns:96px 1fr;gap:12px}
+.menu .facts .k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grey);font-weight:600;padding-top:4px}
+.menu ol{margin:0 0 18px;padding-left:20px;font-size:15.5px;display:grid;gap:6px}
+@media (max-width:900px){.menu{grid-template-columns:1fr}.menu .intro{position:static}.menu .body{grid-template-columns:1fr;padding-left:0}.menu .body .arch{aspect-ratio:4/3;max-width:420px}.menu summary{grid-template-columns:36px 1fr 32px}.menu summary .m{display:none}}
 
-/* about (dark) */
-.about{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(40px,6vw,120px);align-items:center}
-.about .photo{aspect-ratio:4/5;overflow:hidden;border-radius:2px;background:#1B1D26}
-.about .photo img{width:100%;height:115%;object-fit:cover;object-position:50% 20%}
-.about .copy{display:grid;gap:26px}
-.about .copy p{margin:0;max-width:52ch;color:var(--fg-mute);font-size:clamp(17px,1.2vw,20px)}
-.about .copy p strong{color:var(--fg);font-weight:500}
-.about .facts{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--line);list-style:none;margin:0;padding:0}
-.about .facts li{padding:14px 0;border-bottom:1px solid var(--line);font-size:15.5px}
-.about .facts li .mono{display:block;color:var(--fg-mute);margin-bottom:4px}
-@media (max-width:900px){.about{grid-template-columns:1fr}.about .facts{grid-template-columns:1fr}}
+/* 06 Caroline */
+.who{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,90px);align-items:center}
+.who .arch{aspect-ratio:4/5;max-width:520px}
+.who .arch img{object-position:50% 20%}
+.who .copy{display:grid;gap:24px}
+.who .copy p{max-width:48ch;font-size:clamp(17px,1.25vw,21px);color:#D6D3CA}
+.who .copy p b{color:var(--cream);font-weight:600}
+.who .tv{display:flex;flex-wrap:wrap;gap:10px 28px;font-family:var(--serif);font-size:clamp(22px,2vw,30px);border-top:1px solid rgba(245,241,232,.2);padding-top:18px}
+@media (max-width:900px){.who{grid-template-columns:1fr}}
 
-/* voices */
+/* 07 Stimmen */
 .voices{padding-top:0}
-.voices .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(24px,3vw,56px);border-top:1px solid var(--line);padding-top:clamp(32px,4vw,56px)}
-.voice{display:grid;gap:18px;align-content:start}
-.voice blockquote{margin:0;font-family:var(--display);font-size:clamp(19px,1.45vw,24px);line-height:1.3;font-weight:300}
-.voice figcaption{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-mute)}
+.voices .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,48px);border-top:1px solid rgba(245,241,232,.2);padding-top:clamp(36px,4vw,64px)}
+.voices figure{margin:0;display:grid;gap:16px;align-content:start}
+.voices blockquote{margin:0;font-family:var(--serif);font-size:clamp(21px,1.7vw,27px);line-height:1.3}
+.voices blockquote::before{content:"„";display:block;font-size:72px;line-height:.6;color:#A9A69C;margin-bottom:6px}
+.voices figcaption{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:#A9A69C}
 @media (max-width:900px){.voices .grid{grid-template-columns:1fr}}
 
-/* villa / contact */
-.villa{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(40px,6vw,110px);align-items:end}
-.villa .photo{aspect-ratio:3/2;overflow:hidden;border-radius:2px;background:var(--paper-2)}
-.villa .photo img{width:100%;height:115%;object-fit:cover}
+/* 08 Villa */
+.villa{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,90px);align-items:end}
 .villa .copy{display:grid;gap:26px}
-.villa dl{margin:0;border-top:1px solid var(--line);display:grid}
-.villa .row{display:grid;grid-template-columns:110px 1fr;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);font-size:16px}
-.villa dt{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-mute);padding-top:3px}
+.villa address{font-style:normal;font-family:var(--serif);font-size:clamp(28px,3.4vw,52px);line-height:1.05}
+.villa dl{margin:0;display:grid;gap:10px;font-size:16px}
+.villa dl div{display:grid;grid-template-columns:100px 1fr;gap:12px;border-top:1px solid rgba(245,241,232,.25);padding-top:10px}
+.villa dt{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:#C9CFFF;padding-top:4px}
 .villa dd{margin:0}
-.villa dd a{text-decoration:none;border-bottom:1px solid var(--line);transition:border-color .3s}
+.villa dd a{text-decoration:none;border-bottom:1px solid rgba(245,241,232,.4)}
 .villa dd a:hover{border-color:currentColor}
-@media (max-width:900px){.villa{grid-template-columns:1fr}}
+.villa .arch{aspect-ratio:4/5;max-width:520px;justify-self:end}
+@media (max-width:900px){.villa{grid-template-columns:1fr}.villa .arch{justify-self:start;max-width:420px}}
 
-/* final cta */
-.final{text-align:left;display:grid;gap:34px;padding-top:0}
-.final h2{max-width:14ch}
-
-/* footer */
-footer{padding:clamp(48px,6vw,90px) var(--gutter) 28px;border-top:1px solid var(--line)}
-footer{overflow:hidden}
-footer .mark{font-family:var(--display);font-size:clamp(48px,13.5vw,240px);line-height:.9;letter-spacing:.04em;font-weight:400;margin:0 0 40px -.04em;white-space:nowrap}
-footer .mark .it{font-weight:300}
-footer .cols{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:28px;font-size:15px;color:var(--fg-mute)}
-footer .cols a{text-decoration:none}
-footer .cols a:hover{color:var(--fg)}
-footer .cols ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
-footer .base{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--fg-mute)}
+/* Footer */
+footer{background:var(--black);color:var(--cream);padding:clamp(40px,6vw,80px) var(--pad) 26px}
+footer .cols{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:28px;font-size:15px;color:#A9A69C}
+footer a{text-decoration:none}
+footer a:hover{color:var(--cream)}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+footer .base{margin-top:36px;padding-top:16px;border-top:1px solid rgba(245,241,232,.2);display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#A9A69C}
 @media (max-width:760px){footer .cols{grid-template-columns:1fr}}
 
-/* demo marker */
-.demo-mark{position:fixed;left:14px;bottom:14px;z-index:70;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;background:rgba(21,23,31,.78);color:#F3EEE6;padding:7px 11px;border-radius:999px;pointer-events:none;backdrop-filter:blur(6px)}
-.expired{position:fixed;inset:0;z-index:200;background:var(--ink);color:var(--paper);display:grid;place-items:center;text-align:center;padding:var(--gutter)}
-.expired h1{font-size:clamp(32px,5vw,64px)}
+/* Demo-Kennzeichnung */
+.mark{position:fixed;left:14px;bottom:14px;z-index:60;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;background:var(--black);color:var(--cream);padding:8px 12px;border-radius:2px;pointer-events:none}
+.expired{position:fixed;inset:0;z-index:200;background:var(--blue);color:var(--cream);display:grid;place-items:center;text-align:center;padding:var(--pad)}
 
-/* cursor */
-.cursor{position:fixed;left:0;top:0;z-index:90;pointer-events:none;width:12px;height:12px;border-radius:50%;background:#fff;mix-blend-mode:difference;transform:translate(-50%,-50%);display:none;place-items:center;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#000;transition:width .4s var(--ease),height .4s var(--ease)}
-.cursor.big{width:76px;height:76px}
-@media (hover:hover) and (pointer:fine){html.has-motion .cursor{display:grid}}
-
-/* motion states */
-html.has-motion [data-split] .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
-html.has-motion [data-split] .w>span{display:inline-block;will-change:transform}
-html.has-motion [data-reveal],html.has-motion [data-reveal-group]>*{visibility:hidden}
-html.has-motion [data-clip]{visibility:hidden}
-html.has-motion .hero .inner>*{visibility:hidden}
-.marq{overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0;font-family:var(--display);font-size:clamp(18px,1.6vw,26px);white-space:nowrap}
-.marq .in{display:inline-flex;gap:60px;padding-right:60px;animation:marq 28s linear infinite}
-.marq .in span::before{content:"·";margin-right:60px;color:var(--blue)}
-@keyframes marq{to{transform:translateX(-100%)}}
-@media (prefers-reduced-motion:reduce){.marq .in{animation:none}.hero .media img{height:100%}}
+/* Reveals */
+.js .r{opacity:0;transform:translateY(22px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.js .r.in{opacity:1;transform:none}
+.js .r-arch{clip-path:inset(100% 0 0 0);transition:clip-path 1.1s var(--ease)}
+.js .r-arch.in{clip-path:inset(0 0 0 0)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js .r,.js .r-arch{opacity:1;transform:none;clip-path:none;transition:none}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Zum Inhalt springen</a>
-<div class="cursor" aria-hidden="true"><span></span></div>
 
-<header class="nav" id="nav">
-  <a class="brand" href="#top" aria-label="CAROLINES — zum Seitenanfang">CAROLINES</a>
-  <nav aria-label="Hauptnavigation">
-    <ul>
-      <li><a href="#umstylings">Umstylings</a></li>
-      <li><a href="#angebote">Angebote</a></li>
-      <li><a href="#caroline">Caroline</a></li>
-      <li><a href="#villa">Villa &amp; Kontakt</a></li>
-      <li><a href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Gespräch buchen</a></li>
-    </ul>
-  </nav>
-  <button class="burger" id="burger" aria-expanded="false" aria-controls="menu">Menü</button>
+<header class="top on-dark" id="top">
+  <a class="wm" href="#cover">CAROLINES</a>
+  <a class="cta" href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Kostenloses Gespräch</a>
 </header>
-<div class="menu" id="menu" hidden>
-  <a href="#umstylings">Umstylings</a>
-  <a href="#angebote">Angebote</a>
-  <a href="#caroline">Caroline Florett</a>
-  <a href="#villa">Villa &amp; Kontakt</a>
-  <a href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Gespräch buchen</a>
-  <span class="mono">Theodor-Heuss-Str. 11 · 53177 Bonn · +49 228 18 456 47</span>
-</div>
+<ol class="chap on-dark" id="chap" aria-label="Kapitel">
+  <li><a href="#cover" title="Anfang"><span>1</span></a></li>
+  <li><a href="#kennst" title="Kennst Du das?"><span>2</span></a></li>
+  <li><a href="#umstylings" title="Umstylings"><span>3</span></a></li>
+  <li><a href="#angebote" title="Angebote"><span>4</span></a></li>
+  <li><a href="#caroline" title="Caroline Florett"><span>5</span></a></li>
+  <li><a href="#villa" title="Villa &amp; Kontakt"><span>6</span></a></li>
+</ol>
 
 <main id="main">
-<section class="hero" id="top" data-theme="dark">
-  <div class="media" aria-hidden="true"><img src="img-hero.webp" alt="" width="1600" height="1067" fetchpriority="high" data-parallax></div>
-  <div class="inner">
-    <p class="mono eyebrow">Stilberatung &amp; Personal Styling · Bonn Bad Godesberg</p>
-    <h1 data-hero-title>Dein Stil ist da. Du musst ihn nur <em>sichtbar</em> machen.</h1>
-    <p class="lead">Kein „Was ist gerade Trend“. Sondern ein Look, der Dich stärkt, Deine Kompetenz zeigt und sich endlich nach Dir anfühlt. Von Caroline Florett — Diplom-Designerin, Umstyling-Expertin und TV-Stylistin.</p>
+
+<section class="cover blue on-blue" id="cover" data-dark>
+  <div class="lead">
+    <p class="small">Die Fashion &amp; Styling Company, die Frauen sichtbar macht · Bonn</p>
+    <h1>Dein Stil ist <em>da.</em></h1>
+    <p class="sub">Du musst ihn nur sichtbar machen. Kein „Was ist gerade Trend“ — sondern Dein ganz persönlicher Look, der Dich stärkt und sich endlich nach Dir anfühlt.</p>
     <div class="row">
-      <a class="btn light" data-magnetic href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Kostenloses Strategiegespräch <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 3l5 5-5 5"/></svg></a>
-      <a class="btn ghost" data-magnetic href="#umstylings">Umstylings ansehen</a>
+      <a class="btn fill" href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Stilreise kostenlos starten</a>
+      <a class="btn line" href="#umstylings"><span>Umstylings ansehen</span></a>
     </div>
-    <div class="foot mono">
-      <span>CAROLINES Villa · Theodor-Heuss-Str. 11 · 53177 Bonn</span>
-      <span>Termine live in der Villa oder online</span>
+  </div>
+  <div class="arch r-arch"><img src="img-hero.webp" alt="Caroline Florett in der CAROLINES Villa, lachend, in heller Weste" width="1600" height="1067" fetchpriority="high"></div>
+  <div class="meta"><span>Caroline Florett · Diplom-Designerin · TV-Stylistin</span><span>Villa Bad Godesberg · online per Video</span></div>
+</section>
+
+<section class="wardrobe" id="kennst">
+  <span class="num" aria-hidden="true">02</span>
+  <div class="q">
+    <p class="small" style="color:var(--grey)">Kennst Du das?</p>
+    <h2 class="r">Du bist innerlich gewachsen — aber Dein Stil erzählt noch die <em>alte</em> Geschichte?</h2>
+  </div>
+  <div>
+    <ol class="r">
+      <li>Du hast viel erreicht – aber Dein Look zieht nicht mit.</li>
+      <li>Dein Kleiderschrank ist voll, trotzdem „Nichts zum Anziehen“.</li>
+      <li>Du willst professionell wirken, ohne Dich zu verkleiden.</li>
+      <li>Du möchtest nachhaltig einkaufen, weißt aber nicht wie.</li>
+      <li>Du spürst: Da geht noch mehr – auch nach außen.</li>
+    </ol>
+    <div class="after r">
+      <div class="arch"><img src="img-caroline-kundin.webp" alt="Caroline Florett vor einer bunten Kleiderstange" width="609" height="609" loading="lazy"></div>
+      <p><b>Stil ist kein Luxus. Stil ist Selbstführung.</b><br>Dein Stil wartet nicht im Schrank. Er wartet darauf, gelebt zu werden.</p>
     </div>
   </div>
 </section>
 
-<div class="marq" aria-hidden="true"><div class="in"><span>Stil ist kein Outfit.</span><span>Stil ist Deine sichtbare Persönlichkeit.</span><span>Nicht lauter, sondern klarer.</span><span>Nicht verkleidet, sondern authentisch.</span><span>Stil ist kein Outfit.</span><span>Stil ist Deine sichtbare Persönlichkeit.</span><span>Nicht lauter, sondern klarer.</span><span>Nicht verkleidet, sondern authentisch.</span></div></div>
-
-<section class="wrap" id="anfang" data-theme="light">
-  <div class="intro">
-    <div>
-      <p class="mono" style="color:var(--fg-mute);margin:0 0 22px">Kennst Du das?</p>
-      <p class="lead" data-split>Du hast viel erreicht — aber Dein Kleiderschrank erzählt noch nicht Deine Geschichte.</p>
-      <ul class="list" data-reveal-group style="margin-top:44px">
-        <li>Du hast viel erreicht – aber Dein Look zieht nicht mit.</li>
-        <li>Dein Kleiderschrank ist voll, trotzdem „Nichts zum Anziehen“.</li>
-        <li>Du willst professionell wirken, ohne Dich zu verkleiden.</li>
-        <li>Du möchtest nachhaltig einkaufen, weißt aber nicht wie.</li>
-        <li>Du spürst: Da geht noch mehr – auch nach außen.</li>
-      </ul>
-    </div>
-    <div class="aside">
-      <figure style="margin:0" data-clip><img src="img-caroline-beratung.webp" alt="Caroline Florett im Gespräch mit einer Kundin, beide schauen gemeinsam auf Unterlagen" width="1080" height="1080" loading="lazy" style="aspect-ratio:1;object-fit:cover;border-radius:2px"></figure>
-      <p class="quote" data-reveal><strong>Stil ist kein Luxus. Stil ist Selbstführung.</strong> Meine Aufgabe ist nicht, Dich zu verändern. Sondern sichtbar zu machen, was längst da ist.</p>
-    </div>
-  </div>
-</section>
-
-<section class="wrap" id="umstylings" data-theme="light" style="padding-top:0">
+<section class="compare blue on-blue" id="umstylings" data-dark>
+  <span class="num" aria-hidden="true" style="color:var(--cream)">03</span>
   <div class="head">
     <div>
-      <span class="mono">Magic Makeover · Ergebnisse</span>
-      <h2 data-split>Vorher. Nachher. <em>Sichtbar.</em></h2>
+      <p class="small">Magic Makeover · Deine Ergebnisse nach dem Umstyling</p>
+      <h2 class="r">Dein Stil. Deine Sichtbarkeit. Deine <em>Wirkung.</em></h2>
     </div>
-    <p data-reveal>Echte Kundinnen, echte Umstylings aus der CAROLINES Villa. Jede Veränderung hat eine Idee — und die steht hier unter dem Bild.</p>
+    <p class="r">Echte Kundinnen aus der CAROLINES Villa. Zieh den Regler — links das Vorher, rechts das Nachher. Unter jedem Bild steht, was sich verändert hat.</p>
   </div>
-  <div class="ba-grid" data-reveal-group>
-    <figure class="ba">
-      <div class="reveal-hover" data-reveal-hover>
-        <img class="base" src="img-ba-01-vorher.webp" alt="Vorher: Kundin im gemusterten Paisley-Kleid. Nachher: graue Hose, petrolfarbenes Oberteil und Strickjacke" width="540" height="907" loading="lazy">
-        <img class="over" src="img-ba-01-nachher.webp" alt="" width="540" height="907" loading="lazy" aria-hidden="true">
-        <span class="line" aria-hidden="true"></span>
-        <span class="tag">Vorher · Nachher</span>
-        <button class="toggle" type="button" aria-pressed="false">Nachher zeigen</button>
-      </div>
-      <figcaption><span class="n">01</span><div><h3>Vom Muster zur Farbe</h3><p>Das kleinteilige Paisley tritt zurück, Petrol und Grau übernehmen. Die Silhouette wird länger, die Person kommt nach vorn.</p></div></figcaption>
+  <div class="pairs">
+    <figure class="pair r">
+      <div class="cmp" data-cmp>
+        <img src="img-ba-01-vorher.webp" alt="Vorher: Kundin im gemusterten Paisley-Kleid" width="540" height="907" loading="lazy">
+        <img class="after" src="img-ba-01-nachher.webp" alt="Nachher: graue Hose, petrolfarbenes Oberteil und Strickjacke" width="540" height="907" loading="lazy">
+        <input type="range" min="0" max="100" value="50" aria-label="Vergleich Vorher/Nachher, Umstyling 1">
+        <span class="handle" aria-hidden="true"></span>
+              </div>
+      <figcaption><strong>Vom Muster zur Farbe</strong><span>Das kleinteilige Paisley tritt zurück, Petrol und Grau übernehmen. Die Silhouette wird länger, die Person kommt nach vorn.</span></figcaption>
     </figure>
-    <figure class="ba">
-      <div class="reveal-hover" data-reveal-hover>
-        <img class="base" src="img-ba-02-vorher.webp" alt="Vorher: Kundin in beigem Blazer mit Tuch. Nachher: schwarze Lederjacke mit weißem Schal" width="540" height="907" loading="lazy">
-        <img class="over" src="img-ba-02-nachher.webp" alt="" width="540" height="907" loading="lazy" aria-hidden="true">
-        <span class="line" aria-hidden="true"></span>
-        <span class="tag">Vorher · Nachher</span>
-        <button class="toggle" type="button" aria-pressed="false">Nachher zeigen</button>
-      </div>
-      <figcaption><span class="n">02</span><div><h3>Kontrast, der das Gesicht rahmt</h3><p>Aus Beige-in-Beige wird Schwarz und Weiß. Der klare Kontrast holt die Augen und die Frisur nach vorn.</p></div></figcaption>
+    <figure class="pair r">
+      <div class="cmp" data-cmp>
+        <img src="img-ba-02-vorher.webp" alt="Vorher: Kundin in beigem Blazer mit Tuch" width="540" height="907" loading="lazy">
+        <img class="after" src="img-ba-02-nachher.webp" alt="Nachher: schwarze Lederjacke mit weißem Schal" width="540" height="907" loading="lazy">
+        <input type="range" min="0" max="100" value="50" aria-label="Vergleich Vorher/Nachher, Umstyling 2">
+        <span class="handle" aria-hidden="true"></span>
+              </div>
+      <figcaption><strong>Kontrast, der das Gesicht rahmt</strong><span>Aus Beige-in-Beige wird Schwarz und Weiß. Der klare Kontrast holt Augen und Frisur nach vorn.</span></figcaption>
     </figure>
-    <figure class="ba">
-      <div class="reveal-hover" data-reveal-hover>
-        <img class="base" src="img-ba-03-vorher.webp" alt="Vorher: Kundin in dunklem Blumenmuster. Nachher: leuchtend grünes Oberteil mit grünen Ohrringen" width="540" height="907" loading="lazy">
-        <img class="over" src="img-ba-03-nachher.webp" alt="" width="540" height="907" loading="lazy" aria-hidden="true">
-        <span class="line" aria-hidden="true"></span>
-        <span class="tag">Vorher · Nachher</span>
-        <button class="toggle" type="button" aria-pressed="false">Nachher zeigen</button>
-      </div>
-      <figcaption><span class="n">03</span><div><h3>Eine Farbe, die wach macht</h3><p>Das dunkle Muster weicht einem klaren Grün, dazu passende Ohrringe. Der Teint wirkt frischer, der Blick offener.</p></div></figcaption>
+    <figure class="pair r">
+      <div class="cmp" data-cmp>
+        <img src="img-ba-03-vorher.webp" alt="Vorher: Kundin in dunklem Blumenmuster" width="540" height="907" loading="lazy">
+        <img class="after" src="img-ba-03-nachher.webp" alt="Nachher: leuchtend grünes Oberteil mit grünen Ohrringen" width="540" height="907" loading="lazy">
+        <input type="range" min="0" max="100" value="50" aria-label="Vergleich Vorher/Nachher, Umstyling 3">
+        <span class="handle" aria-hidden="true"></span>
+              </div>
+      <figcaption><strong>Eine Farbe, die wach macht</strong><span>Das dunkle Muster weicht einem klaren Grün, dazu passende Ohrringe. Der Teint wirkt frischer, der Blick offener.</span></figcaption>
     </figure>
-    <figure class="ba">
-      <div class="reveal-hover" data-reveal-hover>
-        <img class="base" src="img-ba-04-vorher.webp" alt="Vorher: Kundin in heller Strickjacke. Nachher: dunkelblaues Oberteil mit V-Ausschnitt und weißer Jacke" width="540" height="907" loading="lazy">
-        <img class="over" src="img-ba-04-nachher.webp" alt="" width="540" height="907" loading="lazy" aria-hidden="true">
-        <span class="line" aria-hidden="true"></span>
-        <span class="tag">Vorher · Nachher</span>
-        <button class="toggle" type="button" aria-pressed="false">Nachher zeigen</button>
-      </div>
-      <figcaption><span class="n">04</span><div><h3>Struktur statt Weichzeichner</h3><p>Tiefes Marine mit V-Ausschnitt und eine helle Jacke darüber. Die Linie wird klarer, die Haltung sichtbarer.</p></div></figcaption>
+    <figure class="pair r">
+      <div class="cmp" data-cmp>
+        <img src="img-ba-04-vorher.webp" alt="Vorher: Kundin in heller Strickjacke" width="540" height="907" loading="lazy">
+        <img class="after" src="img-ba-04-nachher.webp" alt="Nachher: dunkelblaues Oberteil mit V-Ausschnitt und weißer Jacke" width="540" height="907" loading="lazy">
+        <input type="range" min="0" max="100" value="50" aria-label="Vergleich Vorher/Nachher, Umstyling 4">
+        <span class="handle" aria-hidden="true"></span>
+              </div>
+      <figcaption><strong>Struktur statt Weichzeichner</strong><span>Tiefes Marine mit V-Ausschnitt und eine helle Jacke darüber. Die Linie wird klarer, die Haltung sichtbarer.</span></figcaption>
     </figure>
-    <figure class="ba">
-      <div class="reveal-hover" data-reveal-hover>
-        <img class="base" src="img-ba-05-vorher.webp" alt="Vorher: Kundin in braun gepunkteter Bluse. Nachher: rotes Oberteil, grauer Blazer und rote Ohrringe" width="540" height="907" loading="lazy">
-        <img class="over" src="img-ba-05-nachher.webp" alt="" width="540" height="907" loading="lazy" aria-hidden="true">
-        <span class="line" aria-hidden="true"></span>
-        <span class="tag">Vorher · Nachher</span>
-        <button class="toggle" type="button" aria-pressed="false">Nachher zeigen</button>
-      </div>
-      <figcaption><span class="n">05</span><div><h3>Ein Akzent, der Haltung zeigt</h3><p>Rot als Signal, Grau als Rahmen, die Brille neu gewählt. Ein Look, der im Meeting nicht erklärt werden muss.</p></div></figcaption>
+    <figure class="pair r">
+      <div class="cmp" data-cmp>
+        <img src="img-ba-05-vorher.webp" alt="Vorher: Kundin in braun gepunkteter Bluse" width="540" height="907" loading="lazy">
+        <img class="after" src="img-ba-05-nachher.webp" alt="Nachher: rotes Oberteil, grauer Blazer und rote Ohrringe" width="540" height="907" loading="lazy">
+        <input type="range" min="0" max="100" value="50" aria-label="Vergleich Vorher/Nachher, Umstyling 5">
+        <span class="handle" aria-hidden="true"></span>
+              </div>
+      <figcaption><strong>Ein Akzent, der Haltung zeigt</strong><span>Rot als Signal, Grau als Rahmen, die Brille neu gewählt. Ein Look, der im Meeting nicht erklärt werden muss.</span></figcaption>
     </figure>
-    <figure class="ba">
-      <div class="reveal-hover" data-reveal-hover>
-        <img class="base" src="img-ba-06-vorher.webp" alt="Vorher: Kundin in unifarbenem dunklem Oberteil. Nachher: blau gemusterte Bluse mit großen Creolen" width="540" height="907" loading="lazy">
-        <img class="over" src="img-ba-06-nachher.webp" alt="" width="540" height="907" loading="lazy" aria-hidden="true">
-        <span class="line" aria-hidden="true"></span>
-        <span class="tag">Vorher · Nachher</span>
-        <button class="toggle" type="button" aria-pressed="false">Nachher zeigen</button>
-      </div>
-      <figcaption><span class="n">06</span><div><h3>Der Look folgt der Persönlichkeit</h3><p>Aus Uni-Dunkel wird ein blaues Muster mit Creolen. Nicht lauter — aber deutlich mehr Präsenz.</p></div></figcaption>
+    <figure class="pair r">
+      <div class="cmp" data-cmp>
+        <img src="img-ba-06-vorher.webp" alt="Vorher: Kundin in unifarbenem dunklem Oberteil" width="540" height="907" loading="lazy">
+        <img class="after" src="img-ba-06-nachher.webp" alt="Nachher: blau gemusterte Bluse mit großen Creolen" width="540" height="907" loading="lazy">
+        <input type="range" min="0" max="100" value="50" aria-label="Vergleich Vorher/Nachher, Umstyling 6">
+        <span class="handle" aria-hidden="true"></span>
+              </div>
+      <figcaption><strong>Der Look folgt der Persönlichkeit</strong><span>Aus Uni-Dunkel wird ein blaues Muster mit Creolen. Nicht lauter — aber deutlich mehr Präsenz.</span></figcaption>
     </figure>
   </div>
-  <p class="hint"><span class="fine">Bewege den Cursor über ein Bild — das „Nachher“ folgt der Hand.</span><span class="coarse">Wische über das Bild oder tippe auf „Nachher zeigen“.</span></p>
+  <p class="hint">Der Regler lässt sich mit Maus, Finger oder Pfeiltasten bewegen.</p>
 </section>
 
-<section class="strip" id="etappen" data-theme="light">
+<section class="strip blue on-blue" id="etappen" data-dark>
   <div class="bar">
-    <span class="mono">Weitere Umstylings · in Etappen</span>
-    <div class="arrows"><button type="button" data-strip="-1" aria-label="Zurück"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 8H3M7 3L2 8l5 5"/></svg></button><button type="button" data-strip="1" aria-label="Weiter"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 3l5 5-5 5"/></svg></button></div>
+    <p class="small">Weitere Umstylings · in Etappen</p>
+    <div><button type="button" data-film="-1" aria-label="Zurück">←</button><button type="button" data-film="1" aria-label="Weiter">→</button></div>
   </div>
-  <div class="track" id="track" tabindex="0" aria-label="Galerie weiterer Umstylings, horizontal scrollbar">
-    <figure><img src="img-set-07.webp" alt="Drei Aufnahmen einer Kundin: dunkles Kleid, dann dunkelblauer Jumpsuit, dann weißes Blumenkleid" width="1080" height="1080" loading="lazy"><figcaption><span class="n">07</span><span>Vom dunklen Kleid über Marine bis zum hellen Sommerkleid — ein Umstyling in drei Etappen.</span></figcaption></figure>
-    <figure><img src="img-set-08.webp" alt="Drei Aufnahmen einer Kundin: Jeans und Muster, dann blauer Mantel mit roter Tasche, dann gestreiftes Oberteil mit blauem Rock" width="1080" height="1080" loading="lazy"><figcaption><span class="n">08</span><span>Blau als roter Faden: Mantel, Rock, Streifen — und eine rote Tasche als Punkt.</span></figcaption></figure>
-    <figure><img src="img-set-09.webp" alt="Drei Aufnahmen einer Kundin: beiges Top mit Leggings, dann gemustertes Kleid, dann dunkelblaues Wickelkleid mit roter Clutch" width="1080" height="1080" loading="lazy"><figcaption><span class="n">09</span><span>Vom Freizeit-Look zum Wickelkleid in Marine — die rote Clutch setzt den Akzent.</span></figcaption></figure>
-    <figure><img src="img-set-10.webp" alt="Drei Aufnahmen einer Kundin: dunkles Oberteil mit Schal, dann rot gemustertes Kleid, dann dunkler Mantel mit Muster" width="1080" height="1080" loading="lazy"><figcaption><span class="n">10</span><span>Ein rotes Muster, das die Locken aufnimmt — und ein Mantel, der es ruhig rahmt.</span></figcaption></figure>
-    <figure><img src="img-set-11.webp" alt="Drei Aufnahmen einer Kundin: schwarzes Kleid mit Streifen, dann gelber Mantel, dann blauer Blazer mit gemustertem Rock" width="1080" height="1080" loading="lazy"><figcaption><span class="n">11</span><span>Gelb und Kobalt — zwei klare Farben, die aus einem stillen Look einen Auftritt machen.</span></figcaption></figure>
-    <figure><img src="img-set-12.webp" alt="Drei Aufnahmen einer Kundin: weiße Bluse mit dunkler Hose, dann petrolfarbenes Kleid mit orangener Tasche, dann petrolfarbener Blazer mit Blumenkleid" width="1080" height="1080" loading="lazy"><figcaption><span class="n">12</span><span>Petrol als Basis, Orange als Signal: derselbe Grundton, zwei verschiedene Anlässe.</span></figcaption></figure>
-    <figure><img src="img-set-13.webp" alt="Drei Aufnahmen einer Kundin: gestreiftes Shirt mit Jeans, dann dunkelblaues Ensemble, dann marineblaues Kleid mit gelber Tasche" width="1080" height="1080" loading="lazy"><figcaption><span class="n">13</span><span>Von Streifen und Jeans zu Marine mit einer gelben Tasche — weniger Teile, mehr Wirkung.</span></figcaption></figure>
+  <div class="film" id="film" tabindex="0" aria-label="Galerie weiterer Umstylings, horizontal scrollbar">
+    <figure><img src="img-set-07.webp" alt="Drei Aufnahmen einer Kundin: dunkles Kleid, dunkelblauer Jumpsuit, weißes Blumenkleid" width="1080" height="1080" loading="lazy"><figcaption><b>07</b><span>Vom dunklen Kleid über Marine bis zum hellen Sommerkleid — ein Umstyling in drei Etappen.</span></figcaption></figure>
+    <figure><img src="img-set-08.webp" alt="Drei Aufnahmen einer Kundin: Jeans und Muster, blauer Mantel mit roter Tasche, Streifen mit blauem Rock" width="1080" height="1080" loading="lazy"><figcaption><b>08</b><span>Blau als roter Faden: Mantel, Rock, Streifen — und eine rote Tasche als Punkt.</span></figcaption></figure>
+    <figure><img src="img-set-09.webp" alt="Drei Aufnahmen einer Kundin: beiges Top mit Leggings, gemustertes Kleid, dunkelblaues Wickelkleid mit roter Clutch" width="1080" height="1080" loading="lazy"><figcaption><b>09</b><span>Vom Freizeit-Look zum Wickelkleid in Marine — die rote Clutch setzt den Akzent.</span></figcaption></figure>
+    <figure><img src="img-set-10.webp" alt="Drei Aufnahmen einer Kundin: dunkles Oberteil mit Schal, rot gemustertes Kleid, dunkler Mantel mit Muster" width="1080" height="1080" loading="lazy"><figcaption><b>10</b><span>Ein rotes Muster, das die Locken aufnimmt — und ein Mantel, der es ruhig rahmt.</span></figcaption></figure>
+    <figure><img src="img-set-11.webp" alt="Drei Aufnahmen einer Kundin: schwarzes Kleid mit Streifen, gelber Mantel, blauer Blazer mit gemustertem Rock" width="1080" height="1080" loading="lazy"><figcaption><b>11</b><span>Gelb und Kobalt — zwei klare Farben, die aus einem stillen Look einen Auftritt machen.</span></figcaption></figure>
+    <figure><img src="img-set-12.webp" alt="Drei Aufnahmen einer Kundin: weiße Bluse mit dunkler Hose, petrolfarbenes Kleid mit orangener Tasche, petrolfarbener Blazer mit Blumenkleid" width="1080" height="1080" loading="lazy"><figcaption><b>12</b><span>Petrol als Basis, Orange als Signal: derselbe Grundton, zwei verschiedene Anlässe.</span></figcaption></figure>
+    <figure><img src="img-set-13.webp" alt="Drei Aufnahmen einer Kundin: gestreiftes Shirt mit Jeans, dunkelblaues Ensemble, marineblaues Kleid mit gelber Tasche" width="1080" height="1080" loading="lazy"><figcaption><b>13</b><span>Von Streifen und Jeans zu Marine mit einer gelben Tasche — weniger Teile, mehr Wirkung.</span></figcaption></figure>
   </div>
 </section>
 
-<section class="offers wrap" id="angebote" data-theme="light">
-  <div class="head">
-    <div>
-      <span class="mono">Angebote</span>
-      <h2 data-split>Vom „Was ziehe ich an?“ zum <em>„So wirke ich.“</em></h2>
-    </div>
-    <p data-reveal>Vier Wege zu Deinem Signature Look — live in der CAROLINES Villa in Bad Godesberg oder online per Video. Der Einstieg ist immer ein kostenloses Gespräch.</p>
+<section class="menu" id="angebote">
+  <span class="num" aria-hidden="true">04</span>
+  <div class="intro">
+    <p class="small" style="color:var(--grey)">Angebote</p>
+    <h2 class="r">Vom „Was ziehe ich an?“ zum „So <em>wirke</em> ich.“</h2>
+    <p class="r">Gemeinsam entwickeln wir Deinen Signature Look, ein Styling, das zu Deiner Rolle und Deiner Persönlichkeit passt, einen bewussten, nachhaltigen Umgang mit Mode — und Klarheit, Sicherheit und Ausstrahlung.</p>
+    <div class="r"><a class="btn dark" href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Kostenloses Strategiegespräch</a></div>
   </div>
-  <div class="tabs" data-reveal>
-    <div class="tablist" role="tablist" aria-label="Angebote">
-      <button class="tab" role="tab" id="tab-1" aria-selected="true" aria-controls="panel-1"><span class="n">01</span><span>Stilberatung</span><span class="meta">2 Std.</span></button>
-      <button class="tab" role="tab" id="tab-2" aria-selected="false" aria-controls="panel-2" tabindex="-1"><span class="n">02</span><span>Magic Makeover</span><span class="meta">Programm</span></button>
-      <button class="tab" role="tab" id="tab-3" aria-selected="false" aria-controls="panel-3" tabindex="-1"><span class="n">03</span><span>Mini STYLE-Kurs</span><span class="meta">Digital · Neu</span></button>
-      <button class="tab" role="tab" id="tab-4" aria-selected="false" aria-controls="panel-4" tabindex="-1"><span class="n">04</span><span>Ausstrahlung &amp; Business</span><span class="meta">Begleitung</span></button>
-    </div>
-    <div class="panels">
-      <div class="panel" role="tabpanel" id="panel-1" aria-labelledby="tab-1">
-        <div class="stage"><img src="img-villa-kundin.webp" alt="Kundin in hellem Mantel und gemustertem Kleid vor der Kleiderstange in der CAROLINES Villa" width="1000" height="1539" loading="lazy"></div>
-        <div class="copy">
-          <h3>Stilberatung — zwei Stunden, die bleiben</h3>
-          <p>Klarheit über Deinen persönlichen Stil, neue Looks und Outfitideen, sofort umsetzbare Styling-Tipps. Intensiv, persönlich und ohne Umwege.</p>
+  <div class="r">
+    <details open>
+      <summary><span class="k">01</span><span>Stilberatung</span><span class="m">2 Std. · 600 €</span><span class="x" aria-hidden="true">+</span></summary>
+      <div class="body">
+        <div class="arch"><img src="img-villa-kundin.webp" alt="Kundin in hellem Mantel vor der Kleiderstange in der Villa" width="1000" height="1539" loading="lazy"></div>
+        <div>
+          <p>Klarheit über Deinen persönlichen Stil, neue Looks und Outfitideen, sofort umsetzbare Styling-Tipps und Inspiration. Zwei Stunden intensiv — live in der Mode Villa Bad Godesberg oder online per Video.</p>
           <ol>
             <li>Termin online oder per Kontaktformular sichern</li>
-            <li>Vorab-Abstimmung zu Deinen Zielen</li>
-            <li>Zweistündige Intensiv-Einheit — live oder online</li>
-            <li>Sofort anwendbare Tipps und Dein Stilkonzept</li>
+            <li>Vorab-Abstimmung zu Deinen persönlichen Zielen</li>
+            <li>Zweistündige Intensiv-Einheit, live oder online</li>
+            <li>Sofort anwendbare Tipps und Dein Stylekonzept</li>
           </ol>
           <ul class="facts">
             <li><span class="k">Dauer</span><span>2 Stunden</span></li>
-            <li><span class="k">Ort</span><span>Mode Villa Bad Godesberg oder online per Video</span></li>
+            <li><span class="k">Ort</span><span>Mode Villa Bad Godesberg oder online</span></li>
             <li><span class="k">Preis</span><span>600 € inkl. MwSt.</span></li>
           </ul>
-          <div><a class="btn" data-magnetic href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Termin sichern <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 3l5 5-5 5"/></svg></a></div>
+          <a class="btn dark" href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Termin sichern</a>
         </div>
       </div>
-      <div class="panel" role="tabpanel" id="panel-2" aria-labelledby="tab-2" hidden>
-        <div class="stage"><img src="img-set-11.webp" alt="Umstyling in drei Etappen: schwarzes Kleid, gelber Mantel, blauer Blazer" width="1080" height="1080" loading="lazy"></div>
-        <div class="copy">
-          <h3>Magic Makeover — die Stil-Transformation</h3>
-          <p>Kein klassisches Umstyling, sondern eine tiefgreifende Transformation, die Dich sichtbar macht — klar, souverän und authentisch. Danach weißt Du genau, was Du anziehst und warum, kaufst gezielt statt planlos und hast einen Signature Look, der zu Dir passt.</p>
+    </details>
+    <details>
+      <summary><span class="k">02</span><span>Magic Makeover</span><span class="m">Stil-Transformation</span><span class="x" aria-hidden="true">+</span></summary>
+      <div class="body">
+        <div class="arch"><img src="img-set-11.webp" alt="Umstyling in drei Etappen: schwarzes Kleid, gelber Mantel, blauer Blazer" width="1080" height="1080" loading="lazy"></div>
+        <div>
+          <p>Kein klassisches Umstyling, sondern eine tiefgreifende Stil-Transformation, die Dich sichtbar macht — klar, souverän und authentisch. Danach strahlst Du Sicherheit und Kompetenz aus, weißt genau, was Du anziehst und warum, kaufst gezielt statt planlos und hast einen Signature Look, der zu Dir passt.</p>
           <ul class="facts">
-            <li><span class="k">Für wen</span><span>Frauen vor dem nächsten Karriereschritt, Gründerinnen und Selbstständige, Frauen im Wandel</span></li>
-            <li><span class="k">Einstieg</span><span>Kostenloses Stil-Strategiegespräch</span></li>
-            <li><span class="k">Ergebnis</span><span>Signature Look, Sicherheit im Auftreten, ein Kleiderschrank, der Dir Zeit spart</span></li>
+            <li><span class="k">Für wen</span><span>Frauen vor dem nächsten Karriereschritt, Gründerinnen und Selbstständige, Frauen im Wandel, Frauen, deren Kompetenz sichtbar werden soll</span></li>
+            <li><span class="k">Einstieg</span><span>Kostenfreies Stil-Strategiegespräch</span></li>
           </ul>
-          <div><a class="btn" data-magnetic href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Strategiegespräch buchen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 3l5 5-5 5"/></svg></a></div>
+          <a class="btn dark" href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Strategiegespräch buchen</a>
         </div>
       </div>
-      <div class="panel" role="tabpanel" id="panel-3" aria-labelledby="tab-3" hidden>
-        <div class="stage"><img src="img-caroline-kundin.webp" alt="Caroline Florett lächelnd vor einer bunten Kleiderstange" width="609" height="609" loading="lazy"></div>
-        <div class="copy">
-          <h3>Mini STYLE-Kurs — Dein erster Schritt, digital</h3>
-          <p>Sofort verfügbar, in Deinem Tempo: ein digitaler Minikurs mit persönlichem Style-Fragebogen, Reflexionsimpulsen und ersten konkreten Schritten zu Deinem Signature Look. Themen: Persönlichkeit, Alltag, aktuelle Stil-Situation, gewünschte Wirkung, Stilblockaden.</p>
+    </details>
+    <details>
+      <summary><span class="k">03</span><span>Mini STYLE-Kurs</span><span class="m">Digital · Neu</span><span class="x" aria-hidden="true">+</span></summary>
+      <div class="body">
+        <div class="arch"><img src="img-caroline-beratung.webp" alt="Caroline Florett im Gespräch mit einer Kundin" width="1080" height="1080" loading="lazy"></div>
+        <div>
+          <p>Dein erster Schritt zum Signature Look — hundert Prozent digital, sofort verfügbar, in Deinem Tempo. Mit persönlichem Style-Fragebogen zur Selbstanalyse, Reflexionsimpulsen und ersten konkreten Schritten. Themen: Persönlichkeit, Alltag, aktuelle Stil-Situation, gewünschte Wirkung, Stilblockaden.</p>
           <ul class="facts">
-            <li><span class="k">Format</span><span>100 % digital, jederzeit abrufbar</span></li>
+            <li><span class="k">Format</span><span>Digitaler Minikurs, jederzeit abrufbar</span></li>
             <li><span class="k">Enthalten</span><span>Minikurs, Style-Fragebogen, Reflexionsimpulse, erste Schritte</span></li>
           </ul>
-          <div><a class="btn" data-magnetic href="https://www.carolines.world/style-mini-kurs" target="_blank" rel="noopener">Zum Kurs <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 3l5 5-5 5"/></svg></a></div>
+          <a class="btn dark" href="https://www.carolines.world/style-mini-kurs" target="_blank" rel="noopener">Zum Kurs</a>
         </div>
       </div>
-      <div class="panel" role="tabpanel" id="panel-4" aria-labelledby="tab-4" hidden>
-        <div class="stage"><img src="img-event.webp" alt="Caroline Florett im Gespräch mit Gästen bei einer Veranstaltung" width="1600" height="1067" loading="lazy"></div>
-        <div class="copy">
-          <h3>Ausstrahlung &amp; Business — mehr als Stil</h3>
-          <p>Für Frauen, die das Gefühl haben, dass mehr in ihnen steckt. Zwei Wege: Deine natürliche Ausstrahlung vertiefen — ganzheitliche Stilarbeit, unterstützt durch nachhaltige Ringana-Produkte — oder ein flexibles, ortsunabhängiges Business aufbauen, mit persönlichem Mentoring, Community und Schulungen. Ohne Verkaufsdruck, ohne starre Vorgaben, in Deinem Tempo.</p>
+    </details>
+    <details>
+      <summary><span class="k">04</span><span>Ausstrahlung &amp; Business</span><span class="m">Begleitung</span><span class="x" aria-hidden="true">+</span></summary>
+      <div class="body">
+        <div class="arch"><img src="img-event.webp" alt="Caroline Florett im Gespräch mit Gästen bei einer Veranstaltung" width="1600" height="1067" loading="lazy"></div>
+        <div>
+          <p>Mehr als Stil — Deine Ausstrahlung beginnt tiefer. Zwei Wege: Deine natürliche Ausstrahlung vertiefen durch ganzheitliche Stilarbeit, unterstützt durch nachhaltige Ringana-Produkte. Oder ein flexibles, ortsunabhängiges Business aufbauen — ohne Verkaufsdruck, Mindestumsatz oder starre Vorgaben, mit persönlichem Mentoring, Community-Zugang und Schulungen.</p>
           <ul class="facts">
-            <li><span class="k">Start</span><span>Ein persönliches Gespräch — keine Vorkenntnisse nötig</span></li>
+            <li><span class="k">Start</span><span>Ein persönliches Gespräch — keine Vorkenntnisse, kein perfekter Plan nötig</span></li>
           </ul>
-          <div><a class="btn" data-magnetic href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Gespräch vereinbaren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 3l5 5-5 5"/></svg></a></div>
+          <a class="btn dark" href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Gespräch vereinbaren</a>
         </div>
       </div>
-    </div>
+    </details>
   </div>
 </section>
 
-<section class="wrap" id="caroline" data-theme="dark">
-  <div class="about">
-    <figure class="photo" style="margin:0" data-clip><img src="img-caroline-portrait.webp" alt="Porträt von Caroline Florett mit Hut" width="650" height="650" loading="lazy" data-parallax data-speed=".08"></figure>
-    <div class="copy">
-      <span class="mono" style="color:var(--fg-mute)">Caroline Florett · Bonn</span>
-      <h2 data-split>Stil ist kein Outfit. Stil ist Deine <em>sichtbare</em> Persönlichkeit.</h2>
-      <p data-reveal>Ich bin Caroline Florett aus Bonn — Diplom-Designerin, Umstyling-Expertin, Stilcoach und TV-Stylistin. Seit über <strong>20 Jahren</strong> begleite ich Frauen dabei, ihren eigenen Look zu finden. Nicht lauter, sondern klarer. Nicht verkleidet, sondern authentisch.</p>
-      <p data-reveal>Als Styling-Expertin war ich bei <strong>RTL, VOX, ZDF und WDR</strong> zu sehen. Ich habe eine Boutique aufgebaut, drei Modelabels gelauncht und ein Premium-Umstyling-Programm entwickelt — und bin überzeugt: Mode muss tragbar sein.</p>
-      <ul class="facts" data-reveal-group>
-        <li><span class="mono">Erfahrung</span>20+ Jahre Mode- &amp; Stilkompetenz</li>
-        <li><span class="mono">Haltung</span>Nachhaltige Entscheidungen statt schneller Trends</li>
-        <li><span class="mono">Bühne</span>Speakerin und Keynote-Rednerin</li>
-        <li><span class="mono">Motto</span>Less stuff. More happiness.</li>
-      </ul>
-    </div>
+<section class="who black" id="caroline" data-dark>
+  <span class="num" aria-hidden="true">05</span>
+  <div class="arch r-arch"><img src="img-caroline-portrait.webp" alt="Porträt von Caroline Florett mit Hut" width="650" height="650" loading="lazy"></div>
+  <div class="copy">
+    <p class="small">Caroline Florett · Bonn</p>
+    <h2 class="r">Stil ist kein Outfit. Stil ist Deine sichtbare <em>Persönlichkeit.</em></h2>
+    <p class="r">Ich bin Caroline Florett aus Bonn — Diplom-Designerin, Umstyling-Expertin, Stilcoach und TV-Stylistin. Seit über <b>20 Jahren</b> begleite ich Frauen dabei, ihren eigenen Look zu finden — nicht lauter, sondern klarer. Nicht verkleidet, sondern authentisch.</p>
+    <p class="r">In den letzten fünfzehn Jahren habe ich eine Boutique aufgebaut, drei Modelabels gelauncht, ein Premium-Umstyling-Programm entwickelt und zahlreiche Workshops und Events geleitet. Meine Aufgabe ist nicht, Dich zu verändern. Sondern sichtbar zu machen, was längst da ist. <b>Mode muss tragbar sein.</b></p>
+    <div class="tv r" aria-label="Als Styling-Expertin zu sehen bei"><span class="small" style="align-self:center">Zu sehen bei</span><span>RTL</span><span>VOX</span><span>ZDF</span><span>WDR</span></div>
   </div>
 </section>
 
-<section class="voices wrap" data-theme="dark">
-  <div class="head" style="margin-bottom:0"><div><span class="mono">Das sagen meine Kundinnen</span></div></div>
-  <div class="grid" data-reveal-group>
-    <figure class="voice">
-      <blockquote>„Ich dachte, ich brauche einfach nur ein paar neue Outfits – aber ich habe viel mehr bekommen: ein ganz neues Gefühl für mich selbst. Ich gehe mit ganz anderer Energie in Meetings – und bekomme plötzlich Komplimente, wie selbstsicher ich wirke.“</blockquote>
+<section class="voices black" data-dark>
+  <p class="small r">Das sagen meine Kundinnen</p>
+  <div class="grid" style="margin-top:22px">
+    <figure class="r">
+      <blockquote>Ich dachte, ich brauche einfach nur ein paar neue Outfits – aber ich habe viel mehr bekommen: ein ganz neues Gefühl für mich selbst. Ich gehe mit ganz anderer Energie in Meetings – und bekomme plötzlich Komplimente, wie selbstsicher ich wirke.</blockquote>
       <figcaption>Annette P. · Managing Director</figcaption>
     </figure>
-    <figure class="voice">
-      <blockquote>„Ich hatte eine Rede auf einer Gala vor mir und war total unsicher, was ich anziehen soll. Nach nur einer Session mit dir hatte ich mein Outfit – und das Gefühl, zu glänzen, ohne mich zu verkleiden.“</blockquote>
+    <figure class="r">
+      <blockquote>Ich hatte eine Rede auf einer Gala vor mir und war total unsicher, was ich anziehen soll. Nach nur einer Session mit dir hatte ich mein Outfit – und das Gefühl, zu glänzen, ohne mich zu verkleiden. Ich habe mich noch nie so gesehen gefühlt.</blockquote>
       <figcaption>Sophie J. · Rückkehr ins Berufsleben nach Elternzeit</figcaption>
     </figure>
-    <figure class="voice">
-      <blockquote>„Eine orangene Schlaghose?? Ein langes Blumenkleid?? Und das Tolle, Unerwartete: Ich fühle mich so wohl damit! Man fühlt sich bei dir deshalb so wohl, weil du irgendwie den Kern deiner Kundin erfasst. Die Veränderung fühlt sich richtig an.“</blockquote>
+    <figure class="r">
+      <blockquote>Eine orangene Schlaghose?? Ein langes Blumenkleid?? Und das Tolle, Unerwartete: Ich fühle mich so wohl damit! Man fühlt sich bei dir deshalb so wohl, weil du irgendwie den Kern deiner Kundin erfasst. Die Veränderung fühlt sich richtig an.</blockquote>
       <figcaption>Jenny K. · Magic Makeover in Etappen</figcaption>
     </figure>
   </div>
 </section>
 
-<section class="wrap" id="villa" data-theme="light">
-  <div class="villa">
-    <figure class="photo" style="margin:0" data-clip><img src="img-villa.webp" alt="Gäste zwischen Kleiderständern in der CAROLINES Villa, Caroline Florett im Gespräch" width="1600" height="1067" loading="lazy" data-parallax data-speed=".08"></figure>
-    <div class="copy">
-      <span class="mono" style="color:var(--fg-mute)">Die CAROLINES Villa</span>
-      <h2 data-split>Bad Godesberg. <em>Nach Termin.</em></h2>
-      <p data-reveal style="margin:0;color:var(--fg-mute)">Die Villa öffnet für Stilberatungen, Umstylings und individuelle Shopping-Stunden nach vorheriger Terminvereinbarung. Wer nicht in Bonn ist, bucht online per Video.</p>
-      <dl data-reveal-group>
-        <div class="row"><dt>Adresse</dt><dd>CAROLINES GmbH<br>Theodor-Heuss-Str. 11<br>53177 Bonn</dd></div>
-        <div class="row"><dt>Telefon</dt><dd><a href="tel:+492281845647">+49 228 18 456 47</a></dd></div>
-        <div class="row"><dt>WhatsApp</dt><dd><a href="https://wa.me/491788252690" target="_blank" rel="noopener">+49 178 825 2690</a></dd></div>
-        <div class="row"><dt>E-Mail</dt><dd><a href="mailto:hello@carolines.world">hello@carolines.world</a></dd></div>
-        <div class="row"><dt>Route</dt><dd><a href="https://www.google.com/maps/search/?api=1&query=Theodor-Heuss-Str.+11%2C+53177+Bonn" target="_blank" rel="noopener">In Google Maps öffnen</a></dd></div>
-      </dl>
-      <div class="row" style="display:flex;flex-wrap:wrap;gap:12px;border:0;padding:0" data-reveal>
-        <a class="btn blue" data-magnetic href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Kostenloses Gespräch buchen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 3l5 5-5 5"/></svg></a>
-        <a class="btn ghost" data-magnetic href="https://forms.zohopublic.eu/carolineschaefereu1/form/ContactUs/formperma/1jKyBouICnSU3yFOufXJxFGOYeRtT9K4m7cd40lrErs" target="_blank" rel="noopener">Nachricht schreiben</a>
-      </div>
+<section class="villa blue on-blue" id="villa" data-dark>
+  <span class="num" aria-hidden="true" style="color:var(--cream)">06</span>
+  <div class="copy">
+    <p class="small">Die CAROLINES Villa · nach Terminvereinbarung</p>
+    <address class="r">CAROLINES GmbH<br>Theodor-Heuss-Str. 11<br>53177 Bonn</address>
+    <dl class="r">
+      <div><dt>Telefon</dt><dd><a href="tel:+492281845647">+49 228 18 456 47</a></dd></div>
+      <div><dt>WhatsApp</dt><dd><a href="https://wa.me/491788252690" target="_blank" rel="noopener">+49 178 825 2690</a></dd></div>
+      <div><dt>E-Mail</dt><dd><a href="mailto:hello@carolines.world">hello@carolines.world</a></dd></div>
+      <div><dt>Route</dt><dd><a href="https://www.google.com/maps/search/?api=1&query=Theodor-Heuss-Str.+11%2C+53177+Bonn" target="_blank" rel="noopener">In Google Maps öffnen</a></dd></div>
+    </dl>
+    <div class="row r" style="display:flex;flex-wrap:wrap;gap:12px">
+      <a class="btn fill" href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Kostenloses Gespräch buchen</a>
+      <a class="btn line" href="https://forms.zohopublic.eu/carolineschaefereu1/form/ContactUs/formperma/1jKyBouICnSU3yFOufXJxFGOYeRtT9K4m7cd40lrErs" target="_blank" rel="noopener"><span>Nachricht schreiben</span></a>
     </div>
   </div>
-</section>
-
-<section class="final wrap" data-theme="light">
-  <h2 data-split>Bist Du bereit, Dich zu <em>zeigen?</em></h2>
-  <p class="lead" data-reveal style="color:var(--fg-mute)">Dein Stil wartet nicht im Schrank. Er wartet darauf, gelebt zu werden.</p>
-  <div data-reveal><a class="btn" data-magnetic href="https://caroline-carolines.zohobookings.eu/#/239807000000241018" target="_blank" rel="noopener">Jetzt Stilreise kostenlos starten <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 3l5 5-5 5"/></svg></a></div>
+  <div class="arch r-arch"><img src="img-villa.webp" alt="Gäste zwischen Kleiderständern in der CAROLINES Villa" width="1600" height="1067" loading="lazy"></div>
 </section>
 </main>
 
-<footer data-theme="light">
-  <p class="mark" aria-label="CAROLINES">CAROL<span class="it">INES</span></p>
+<footer>
   <div class="cols">
     <div>
-      <p style="margin:0 0 10px;color:var(--fg)">Die einzigartige Fashion &amp; Styling Company</p>
-      <p style="margin:0">CAROLINES GmbH · Theodor-Heuss-Str. 11 · 53177 Bonn<br><a href="mailto:hello@carolines.world">hello@carolines.world</a> · <a href="tel:+492281845647">+49 228 18 456 47</a></p>
+      <p style="color:var(--cream);font-family:var(--serif);font-size:26px;letter-spacing:.2em;margin-bottom:10px">CAROLINES</p>
+      <p>Die einzigartige Fashion &amp; Styling Company<br>CAROLINES GmbH · Theodor-Heuss-Str. 11 · 53177 Bonn<br><a href="mailto:hello@carolines.world">hello@carolines.world</a> · <a href="tel:+492281845647">+49 228 18 456 47</a></p>
     </div>
     <ul>
       <li><a href="https://www.instagram.com/carolineflorett/" target="_blank" rel="noopener">Instagram</a></li>
       <li><a href="https://www.linkedin.com/in/caroline-florett/" target="_blank" rel="noopener">LinkedIn</a></li>
       <li><a href="https://www.youtube.com/@carolineflorett4485" target="_blank" rel="noopener">YouTube</a></li>
+      <li><a href="https://www.facebook.com/CAROLINES.GMBH" target="_blank" rel="noopener">Facebook</a></li>
       <li><a href="https://carolinesfashion.jimdoweb.com/" target="_blank" rel="noopener">Onlineshop</a></li>
     </ul>
     <ul>
       <li><a href="https://www.carolines.world/impressum" target="_blank" rel="noopener">Impressum CAROLINES</a></li>
       <li><a href="https://www.carolines.world/datenschutz" target="_blank" rel="noopener">Datenschutz CAROLINES</a></li>
       <li><a href="impressum.html">Impressum dieses Entwurfs</a></li>
-      <li><a href="#top" data-top>Nach oben</a></li>
+      <li><a href="#cover">Nach oben</a></li>
     </ul>
   </div>
-  <div class="base mono">
-    <span>© <span id="year">2026</span> CAROLINES GmbH</span>
-    <span>Entwurf: Vertex Studio · unverbindlicher Gestaltungsvorschlag</span>
-  </div>
+  <div class="base"><span>© <span id="year">2026</span> CAROLINES GmbH</span><span>Entwurf: Vertex Studio · unverbindlicher Gestaltungsvorschlag</span></div>
 </footer>
-<div class="demo-mark" aria-hidden="true">Entwurf — Vertex Studio · gültig bis 27.09.2026</div>
+<div class="mark" aria-hidden="true">Entwurf — Vertex Studio · gültig bis 27.09.2026</div>
 
-<script src="vendor-gsap.min.js"></script>
-<script src="vendor-scrolltrigger.min.js"></script>
-<script src="vendor-lenis.min.js"></script>
 <script>
 (function(){
   'use strict';
-  /* ---- Ablauf des Entwurfs ---- */
-  var EXPIRES = new Date('2026-09-27T23:59:59+02:00');
-  if (Date.now() > EXPIRES.getTime()) {
-    document.body.innerHTML = '<div class="expired"><div><p class="mono" style="margin:0 0 18px;color:#B8B2A6">Vertex Studio</p><h1>Dieser Entwurf ist abgelaufen.</h1><p style="margin:16px 0 0;color:#B8B2A6">Für eine aktuelle Fassung: leonel@vertexstudio.digital</p></div></div>';
+  if (Date.now() > new Date('2026-09-27T23:59:59+02:00').getTime()) {
+    document.body.innerHTML = '<div class="expired"><div><p class="small" style="margin-bottom:18px;color:#C9CFFF">Vertex Studio</p><h1 style="font-size:clamp(32px,5vw,64px)">Dieser Entwurf ist abgelaufen.</h1><p style="margin-top:16px;color:#C9CFFF">Für eine aktuelle Fassung: leonel@vertexstudio.digital</p></div></div>';
     return;
   }
+  document.documentElement.classList.add('js');
   document.getElementById('year').textContent = new Date().getFullYear();
 
+  /* Vergleichsregler */
+  document.querySelectorAll('[data-cmp]').forEach(function(box){
+    var r = box.querySelector('input[type=range]');
+    var set = function(){ box.style.setProperty('--cut', r.value + '%'); };
+    r.addEventListener('input', set); set();
+  });
+
+  /* Filmstreifen */
+  var film = document.getElementById('film');
+  document.querySelectorAll('[data-film]').forEach(function(b){
+    b.addEventListener('click', function(){ var w = film.querySelector('figure').getBoundingClientRect().width + 2; film.scrollBy({ left: w * Number(b.dataset.film), behavior: 'smooth' }); });
+  });
+
+  /* Reveals */
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
-  var hasGSAP = typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined';
-  var doc = document.documentElement;
-
-  /* ---- Mobile Menü ---- */
-  var burger = document.getElementById('burger'), menu = document.getElementById('menu');
-  function setMenu(open){ menu.hidden = !open; menu.classList.toggle('open', open); burger.setAttribute('aria-expanded', String(open)); burger.textContent = open ? 'Schließen' : 'Menü'; document.body.style.overflow = open ? 'hidden' : ''; }
-  burger.addEventListener('click', function(){ setMenu(menu.hidden); });
-  menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', function(){ setMenu(false); }); });
-  document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && !menu.hidden) setMenu(false); });
-
-  /* ---- Tabs ---- */
-  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
-  var panels = Array.prototype.slice.call(document.querySelectorAll('.panel'));
-  function selectTab(i){
-    tabs.forEach(function(t, k){ var on = k === i; t.setAttribute('aria-selected', String(on)); t.tabIndex = on ? 0 : -1; panels[k].hidden = !on; });
-    if (hasGSAP) ScrollTrigger.refresh();
-  }
-  tabs.forEach(function(t, i){
-    t.addEventListener('click', function(){ selectTab(i); });
-    t.addEventListener('keydown', function(e){
-      var n = i;
-      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') n = (i + 1) % tabs.length;
-      else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') n = (i - 1 + tabs.length) % tabs.length;
-      else if (e.key === 'Home') n = 0; else if (e.key === 'End') n = tabs.length - 1; else return;
-      e.preventDefault(); selectTab(n); tabs[n].focus();
-    });
-  });
-
-  /* ---- Galerie-Pfeile ---- */
-  var track = document.getElementById('track');
-  document.querySelectorAll('[data-strip]').forEach(function(b){
-    b.addEventListener('click', function(){ var w = track.querySelector('figure').getBoundingClientRect().width + 20; track.scrollBy({ left: w * Number(b.dataset.strip), behavior: reduce ? 'auto' : 'smooth' }); });
-  });
-
-  /* ---- Vorher/Nachher Schieber ---- */
-  document.querySelectorAll('[data-reveal-hover]').forEach(function(el){
-    var toggle = el.querySelector('.toggle');
-    var s = { cut: 100, target: 100, frame: 0, active: false };
-    function setToggle(on){ el.classList.toggle('is-after', on); toggle.setAttribute('aria-pressed', String(on)); toggle.textContent = on ? 'Vorher zeigen' : 'Nachher zeigen'; }
-    toggle.addEventListener('click', function(){ s.target = 100; s.cut = 100; el.style.setProperty('--cut', '100%'); el.classList.remove('is-live'); setToggle(!el.classList.contains('is-after')); });
-    function tick(){
-      s.frame = 0;
-      s.cut += (s.target - s.cut) * (reduce ? 1 : 0.16);
-      el.style.setProperty('--cut', s.cut.toFixed(2) + '%');
-      if (Math.abs(s.target - s.cut) > 0.05) schedule(); else if (!s.active && s.target === 100) el.classList.remove('is-live');
-    }
-    function schedule(){ if (!s.frame) s.frame = requestAnimationFrame(tick); }
-    function at(e){ var b = el.getBoundingClientRect(); return Math.max(0, Math.min(100, (e.clientX - b.left) / b.width * 100)); }
-    function begin(e){ if (e.target === toggle) return; if (el.classList.contains('is-after')) setToggle(false); s.active = true; el.classList.add('is-live'); s.target = at(e); if (s.cut >= 99.5) s.cut = 100; schedule(); }
-    function move(e){ if (!s.active) { if (e.pointerType === 'touch') return; begin(e); return; } s.target = at(e); schedule(); }
-    function end(){ s.active = false; if (fine) { s.target = 100; schedule(); } }
-    el.addEventListener('pointerdown', function(e){ if (e.target === toggle) return; begin(e); if (e.pointerType === 'touch') { try { el.setPointerCapture(e.pointerId); } catch (err) {} } });
-    el.addEventListener('pointerenter', function(e){ if (fine && e.pointerType !== 'touch') begin(e); });
-    el.addEventListener('pointermove', move);
-    el.addEventListener('pointerup', end); el.addEventListener('pointercancel', end);
-    el.addEventListener('pointerleave', function(e){ if (e.pointerType !== 'touch') end(); });
-    window.addEventListener('blur', end);
-  });
-
-  if (!hasGSAP) return;
-  gsap.registerPlugin(ScrollTrigger);
-  ScrollTrigger.config({ ignoreMobileResize: true });
-
-  /* ---- Theme-Wechsel pro Sektion ---- */
-  document.querySelectorAll('[data-theme]').forEach(function(sec){
-    var dark = sec.dataset.theme === 'dark';
-    ScrollTrigger.create({ trigger: sec, start: 'top 55%', end: 'bottom 55%',
-      onEnter: function(){ doc.classList.toggle('theme-dark', dark); }, onEnterBack: function(){ doc.classList.toggle('theme-dark', dark); } });
-  });
-
-  /* ---- Smooth scroll (Lenis) ---- */
-  var lenis = null;
-  if (!reduce && typeof Lenis !== 'undefined') {
-    lenis = new Lenis({ lerp: 0.085, smoothWheel: true, wheelMultiplier: 0.9 });
-    lenis.on('scroll', ScrollTrigger.update);
-    gsap.ticker.add(function(t){ lenis.raf(t * 1000); });
-    gsap.ticker.lagSmoothing(0);
-  }
-  document.querySelectorAll('a[href^="#"]').forEach(function(a){
-    a.addEventListener('click', function(e){
-      var id = a.getAttribute('href'); if (id.length < 2) return;
-      var t = document.querySelector(id); if (!t) return;
-      e.preventDefault();
-      if (lenis) lenis.scrollTo(t, { offset: 0 }); else t.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
-    });
-  });
-
-  if (reduce) { ScrollTrigger.refresh(); return; }
-  doc.classList.add('has-motion');
-
-  /* ---- Wort-Split ---- */
-  function split(el){
-    if (el.dataset.splitDone) return [];
-    var full = el.textContent.replace(/\s+/g, ' ').trim();
-    el.setAttribute('aria-label', full);
-    var nodes = Array.prototype.slice.call(el.childNodes), out = [];
-    el.textContent = '';
-    nodes.forEach(function(n){
-      var italic = n.nodeType === 1 && n.tagName === 'EM';
-      var text = n.textContent;
-      text.split(/(\s+)/).forEach(function(part){
-        if (!part) return;
-        if (!part.trim()) { el.appendChild(document.createTextNode(' ')); return; }
-        var mask = document.createElement('span'); mask.className = 'w'; mask.setAttribute('aria-hidden', 'true');
-        var w = document.createElement(italic ? 'em' : 'span'); w.textContent = part; mask.appendChild(w); el.appendChild(mask); out.push(w);
-      });
-    });
-    el.dataset.splitDone = '1';
-    return out;
+  var els = document.querySelectorAll('.r, .r-arch');
+  if (reduce || !('IntersectionObserver' in window)) { els.forEach(function(e){ e.classList.add('in'); }); }
+  else {
+    var io = new IntersectionObserver(function(entries){ entries.forEach(function(en){ if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } }); }, { rootMargin: '0px 0px -12% 0px' });
+    els.forEach(function(e){ io.observe(e); });
   }
 
-  /* ---- Hero Intro ---- */
-  var heroWords = split(document.querySelector('[data-hero-title]'));
-  var heroTl = gsap.timeline({ defaults: { ease: 'power4.out' } });
-  heroTl.fromTo('.hero .media img', { scale: 1.12, autoAlpha: 0 }, { scale: 1, autoAlpha: 1, duration: 1.6, ease: 'power3.out' }, 0)
-    .fromTo('#nav', { y: -16, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: .9 }, .5)
-    .fromTo('.hero .eyebrow', { y: 16, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: .8 }, .6)
-    .set('.hero h1', { autoAlpha: 1 }, .7)
-    .fromTo(heroWords, { yPercent: 110 }, { yPercent: 0, duration: 1.1, stagger: .06 }, .7)
-    .fromTo('.hero .lead', { y: 22, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: .9 }, 1.3)
-    .fromTo('.hero .row', { y: 22, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: .9 }, 1.45)
-    .fromTo('.hero .foot', { autoAlpha: 0 }, { autoAlpha: 1, duration: .8 }, 1.7);
-
-  /* ---- Section headlines ---- */
-  document.querySelectorAll('[data-split]').forEach(function(el){
-    var words = split(el);
-    gsap.set(el, { autoAlpha: 1 });
-    gsap.fromTo(words, { yPercent: 110 }, { yPercent: 0, duration: .95, ease: 'power4.out', stagger: .045, scrollTrigger: { trigger: el, start: 'top 84%', once: true } });
-  });
-
-  /* ---- Reveals ---- */
-  document.querySelectorAll('[data-reveal]').forEach(function(el){
-    gsap.fromTo(el, { y: 30, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: .95, ease: 'power4.out', scrollTrigger: { trigger: el, start: 'top 86%', once: true } });
-  });
-  document.querySelectorAll('[data-reveal-group]').forEach(function(g){
-    gsap.fromTo(g.children, { y: 30, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: .95, ease: 'power4.out', stagger: .085, scrollTrigger: { trigger: g, start: 'top 84%', once: true } });
-  });
-  document.querySelectorAll('[data-clip]').forEach(function(f){
-    var img = f.querySelector('img');
-    var tl = gsap.timeline({ scrollTrigger: { trigger: f, start: 'top 82%', once: true } });
-    tl.set(f, { autoAlpha: 1 })
-      .fromTo(f, { clipPath: 'inset(0 0 100% 0)' }, { clipPath: 'inset(0 0 0% 0)', duration: 1.1, ease: 'power4.out' }, 0)
-      .fromTo(img, { scale: 1.08 }, { scale: 1, duration: 1.3, ease: 'power4.out' }, 0);
-  });
-
-  /* ---- Parallax ---- */
-  document.querySelectorAll('[data-parallax]').forEach(function(img){
-    var sec = img.closest('section') || img.parentElement;
-    var sp = Number(img.dataset.speed || .14);
-    gsap.fromTo(img, { yPercent: -sp * 50 }, { yPercent: sp * 50, ease: 'none', scrollTrigger: { trigger: sec, start: 'top bottom', end: 'bottom top', scrub: 1.1, invalidateOnRefresh: true } });
-  });
-
-  /* ---- Magnetic + Cursor ---- */
-  if (fine) {
-    document.querySelectorAll('[data-magnetic]').forEach(function(el){
-      var xTo = gsap.quickTo(el, 'x', { duration: .45, ease: 'power3.out' }), yTo = gsap.quickTo(el, 'y', { duration: .45, ease: 'power3.out' });
-      el.addEventListener('pointermove', function(e){ var b = el.getBoundingClientRect(); xTo((e.clientX - b.left - b.width / 2) * .22); yTo((e.clientY - b.top - b.height / 2) * .22); });
-      el.addEventListener('pointerleave', function(){ xTo(0); yTo(0); });
+  /* Kapitel + Farbe der Kopfzeile */
+  var top = document.getElementById('top'), chap = document.getElementById('chap');
+  var links = chap.querySelectorAll('a');
+  var secs = Array.prototype.slice.call(document.querySelectorAll('main > section'));
+  var so = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if (!en.isIntersecting) return;
+      var dark = en.target.hasAttribute('data-dark');
+      top.classList.toggle('on-dark', dark); chap.classList.toggle('on-dark', dark);
+      links.forEach(function(a){ a.classList.toggle('is-active', a.getAttribute('href') === '#' + en.target.id); });
     });
-    var cur = document.querySelector('.cursor'), lab = cur.querySelector('span');
-    var cx = gsap.quickTo(cur, 'x', { duration: .3, ease: 'power3.out' }), cy = gsap.quickTo(cur, 'y', { duration: .3, ease: 'power3.out' });
-    document.addEventListener('pointermove', function(e){ cx(e.clientX); cy(e.clientY); });
-    document.querySelectorAll('[data-reveal-hover]').forEach(function(t){
-      t.addEventListener('pointerenter', function(){ lab.textContent = 'Schieben'; cur.classList.add('big'); });
-      t.addEventListener('pointerleave', function(){ lab.textContent = ''; cur.classList.remove('big'); });
-    });
-    document.addEventListener('visibilitychange', function(){ if (document.hidden) { lab.textContent = ''; cur.classList.remove('big'); } });
-  }
-
-  window.addEventListener('load', function(){ ScrollTrigger.refresh(); });
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ ScrollTrigger.refresh(); });
+  }, { rootMargin: '-45% 0px -50% 0px' });
+  secs.forEach(function(s){ so.observe(s); });
 })();
 </script>
 </body>
